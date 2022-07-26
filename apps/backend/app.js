@@ -34,6 +34,6 @@ const PORT = 1337;
 
 app.use("/api", router);
 
-app.listen(PORT, () => {
-  console.log(`[INFO] : SERVER STARTED AT http://localhost:${PORT}`);
+app.listen(process.env.PORT || 3000, () => {
+  console.log(`[INFO] : SERVER STARTED AT http://localhost:${3000}`);
 });
