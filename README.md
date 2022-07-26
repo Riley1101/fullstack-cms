@@ -33,6 +33,8 @@ To develop all apps and packages, run the following command:
 
 ```
 cd fullstack-cms
+yarn workspace web install
+yarn workspace backend install
 yarn run dev
 ```
 
@@ -50,5 +52,3 @@ npx turbo login
 ```
 npx turbo link
 ```
-
-## Useful Links
