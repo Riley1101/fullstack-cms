@@ -1,0 +1,30 @@
+:root {
+  --clr-theme-primary: hsl(242, 91%, 69%);
+  --clr-theme-secondary: hsl(240, 63%, 97%);
+  --clr-theme-muted: hsl(0, 0%, 45%);
+  --clr-theme-light: hsl(0, 0%, 100%);
+  --clr-theme-dark: hsl(0, 0%, 13%);
+  --app-radius: 5px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}

@@ -1,0 +1,22 @@
+.invoice {
+  display: flex;
+  padding-block: 0.7em;
+  cursor: pointer;
+  padding-inline: 1em;
+  border-radius: var(--app-radius);
+  gap: 1em;
+  background-color: rgb(243, 243, 252);
+  border-bottom: 1px solid rgb(234, 234, 234);
+  color: var(--clr-theme-muted);
+  &:hover {
+    color: black;
+    background-color: var(--clr-theme-light);
+  }
+  & > li {
+    flex-basis: 30%;
+    font-size: 0.9rem;
+  }
+  & > li:first-child {
+    flex-basis: 5%;
+  }
+}

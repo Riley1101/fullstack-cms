@@ -1,0 +1,22 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  &__label {
+    font-size: 0.8rem;
+  }
+  &__form {
+    flex-grow: 1;
+    margin-top: 0.5em;
+    border: none;
+    padding-inline: 1em;
+    padding-block: 0.5em;
+    background-color: white;
+    outline: none;
+    border-radius: calc(var(--app-radius));
+    &:focus,
+    &:active {
+      outline: 1px solid var(--clr-theme-primary);
+    }
+  }
+}

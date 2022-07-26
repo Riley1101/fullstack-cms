@@ -1,0 +1,53 @@
+.form {
+  width: 100%;
+  &__wrapper {
+    display: flex;
+    gap: 1em;
+  }
+  &__title {
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+  }
+  &__fields {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  &__product {
+    flex-basis: 50%;
+    padding-inline: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+    & > p {
+      margin-top: 1em;
+      font-size: 0.8rem;
+    }
+  }
+  &__button {
+    margin-top: 1em;
+    max-width: max-content;
+    padding-inline: 4em;
+    padding-block: 0.6em;
+    background-color: var(--clr-theme-primary);
+    color: var(--clr-theme-light);
+    border-radius: var(--app-radius);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    max-width: 70%;
+  }
+}
