@@ -6,8 +6,8 @@ Full stack CMS platform development for a toy shop
 
 Inside this repo
 
-- apps/backend (Backend for cms using Express and Mongoose)
-- apps/web ( Frontend using Next.js)
+- [apps/backend](https://github.com/Riley1101/fullstack-cms/tree/main/apps/backend) (Backend for cms using Express and Mongoose)
+- [apps/web](https://github.com/Riley1101/fullstack-cms/tree/main/apps/web) ( Frontend using Next.js)
 
 ### Apps and Packages
 
